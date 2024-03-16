@@ -10,6 +10,9 @@ nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
 }
 main{
     padding: 10px;
@@ -30,10 +33,16 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+li{
+    text-align: center;
+    font-size: 70px;
+    width: 50vw;
+}
 #content-principal h1{
     text-align: center;
     color: red;
 }
+/*Espacio para mostrar la imagen*/
 #imagen{
     height: 300px;
     width: 30vw;
@@ -53,3 +62,8 @@ div{
     margin-bottom: 20px;
 }
 
+/*button*/
+button{
+width: 200px;
+height: 60px;
+}
