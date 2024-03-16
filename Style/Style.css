@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    font-size: 4.0rem;
+    width: 100vw;
+    height: 10vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    padding: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content-principal{
+    width: 80vw;
+    height: 1000px;;
+    background-color: black;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#content-principal h1{
+    text-align: center;
+    color: red;
+}
+#imagen{
+    height: 300px;
+    width: 30vw;
+    background-color: blue;
+}
+div{
+    height: 400px;
+    width: 40vw;
+}
+#div-descripcion{
+}
+.descripcion-carta{
+    background-color: wheat ;
+    height: 300px;
+    width: 30vw;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
