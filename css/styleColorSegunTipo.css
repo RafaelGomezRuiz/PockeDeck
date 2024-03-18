@@ -1,0 +1,89 @@
+/* Estilo para el tipo Normal */
+.normal {
+    background-color: #A8A77A;
+  }
+  
+  /* Estilo para el tipo Fire */
+  .fire {
+    background-color: #EE8130;
+  }
+  
+  /* Estilo para el tipo Water */
+  .water {
+    background-color: #6390F0;
+  }
+  
+  /* Estilo para el tipo Electric */
+  .electric {
+    background-color: #F7D02C;
+  }
+  
+  /* Estilo para el tipo Grass */
+  .grass {
+    background-color: #7AC74C;
+  }
+  
+  /* Estilo para el tipo Ice */
+  .ice {
+    background-color: #96D9D6;
+  }
+  
+  /* Estilo para el tipo Fighting */
+  .fighting {
+    background-color: #C22E28;
+  }
+  
+  /* Estilo para el tipo Poison */
+  .poison {
+    background-color: #A33EA1;
+  }
+  
+  /* Estilo para el tipo Ground */
+  .ground {
+    background-image: linear-gradient(to right, #FFFF00 50%, #7f6c01 50%);
+  }
+  
+  /* Estilo para el tipo Flying */
+  .flying {
+    background-image: linear-gradient(to right, #87CEEB 50%, #808080 50%);
+  }
+  
+  /* Estilo para el tipo Psychic */
+  .psychic {
+    background-color: #F95587;
+  }
+  
+  /* Estilo para el tipo Bug */
+  .bug {
+    background-color: #A6B91A;
+  }
+  
+  /* Estilo para el tipo Rock */
+  .rock {
+    background-color: #B6A136;
+  }
+  
+  /* Estilo para el tipo Ghost */
+  .ghost {
+    background-color: #735797;
+  }
+  
+  /* Estilo para el tipo Dragon */
+  .dragon {
+    background-image: linear-gradient(to right, #6F35FC 50%, #D32727 50%);
+  }
+  
+  /* Estilo para el tipo Dark */
+  .dark {
+    background-color: #705746;
+  }
+  
+  /* Estilo para el tipo Steel */
+  .steel {
+    background-color: #B7B7CE;
+  }
+  
+  /* Estilo para el tipo Fairy */
+  .fairy {
+    background-color: #D685AD;
+  }

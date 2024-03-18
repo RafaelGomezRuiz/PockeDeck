@@ -31,6 +31,7 @@ h1{
     color: white;
 }
 body{
+    margin-top: 20px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -82,7 +83,7 @@ body{
     height: 100%;
 }
 
-#tabla-estadisticas{
+#div-estadisticas{
     padding: 20px;
     width: 90%;
     height: 40%;
@@ -162,3 +163,27 @@ footer{
     width: 100vw;
     background-color: red;
 }
+
+/* Style tabla de estadisticas */
+.stat {
+    margin-bottom: 20px;
+  }
+  
+  input[type="range"] {
+    width: 100px;
+  }
+  
+  .bar {
+    background-color: lightblue;
+    height: 20px;
+    margin-top: 5px;
+  }
+  
+  /* Establece el tamaño de la barra según el valor del input */
+  input {
+    width: 50px; /* Valor inicial */
+  }
+
+  /**/
+
+  

@@ -22,10 +22,41 @@
             <div id="contenedor-imagen-tabla" class="div-principal">
 
                 <figure id="imagen">
-                    <img src="https://c0.klipartz.com/pngpicture/476/159/gratis-png-pokemon-pikachu-pikachu-pokemon-thumbnail.png" alt="error al cargar">
+                    <img src="https://i.pinimg.com/736x/fa/cc/e6/facce6ffa1e95f3ec5ea68a6721009ad.jpg" alt="">
                 </figure>
         
-                <table id="tabla-estadisticas" ></table>
+                <!-- <table id="tabla-estadisticas" ></table> -->
+                <div id="div-estadisticas">
+                    <div class="stat">
+                        <label for="hp">HP:</label>
+                        <input type="range" id="hp" name="hp" min="1" max="10" value="5" onchange="updateStat('hp', this.value)">
+                      </div>
+                      
+                      <div class="stat">
+                        <label for="attack">Attack:</label>
+                        <input type="range" id="attack" name="attack" min="1" max="10" value="5" onchange="updateStat('attack', this.value)">
+                      </div>
+                      
+                      <div class="stat">
+                        <label for="defense">Defense:</label>
+                        <input type="range" id="defense" name="defense" min="1" max="10" value="5" onchange="updateStat('defense', this.value)">
+                      </div>
+                      
+                      <div class="stat">
+                        <label for="special-attack">Special Attack:</label>
+                        <input type="range" id="special-attack" name="special-attack" min="1" max="10" value="5" onchange="updateStat('special-attack', this.value)">
+                      </div>
+                      
+                      <div class="stat">
+                        <label for="special-defense">Special Defense:</label>
+                        <input type="range" id="special-defense" name="special-defense" min="1" max="10" value="5" onchange="updateStat('special-defense', this.value)">
+                      </div>
+                      
+                      <div class="stat">
+                        <label for="speed">Speed:</label>
+                        <input type="range" id="speed" name="speed" min="1" max="10" value="5" onchange="updateStat('speed', this.value)">
+                      </div>
+                </div>
                 
             </div>
     
@@ -33,8 +64,6 @@
                 <div  >
                     <p class="texto">Wartortle’s long, furry tail is a symbol of longevity, so <br>this Pokémon is quite popular among older people.</p>
                     Versions
-                    <img src="" alt="icono1">
-                    <img src="" alt="icono2">
                 </div>
                 <div id="peso-categoria" >
                     <p>
@@ -51,30 +80,24 @@
                 <div id="div-type" >
                     <h3>Type</h3>
                     <ul id="ul-type" class="column">
-                        <li>Water</li>
-                        <li>Water</li>
                     </ul>
                 </div>
         
                 <div id="Weaknesses" >
                     <h3>Weaknesses</h3>
                     <ul id="ul-Weaknesses" class="column">
-                        <li>Water</li>
-                        <li>Water</li>
+
                     </ul>
                 </div>
             </div>
         </section>
-        
-        <section id="evolutions" >
-            klkl
-        </section>
+
         
         <div id="content-principal-button">
             <button>Explore more pokemons</button>
         </div>
     </main>
-    
+    <script src="js/MostrarInformacionDetallada.js"></script>
 </body>
 <footer>
     <ul id="ul-footer">
